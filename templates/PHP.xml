@@ -91,12 +91,15 @@
   </template>
   <template name="rqr" value="require __DIR__ . &quot;/$PATH$&quot;;$END$" description="'require' statement" toReformat="true" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="inc" value="include __DIR__ . &quot;/$PATH$&quot;;$END$" description="'include' statement" toReformat="true" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="inco" value="include_once __DIR__ . &quot;/$PATH$&quot;;$END$" description="'include_once' statement" toReformat="true" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="ifunc" value="public function $NAME$($PARAMETERS$);$END$" description="interface function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />

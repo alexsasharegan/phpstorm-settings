@@ -1,0 +1,59 @@
+<application>
+  <component name="BWACSettings">
+    <option name="wrapAround" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="evlsprt3.162" value="18" />
+    <property name="PhpStorm.InitialConfiguration" value="true" />
+    <property name="PhpStorm.dumbRunEnabled" value="true" />
+    <property name="PhpStorm.initialConfigurationShown" value="true" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+    <property name="lastTip" value="35" />
+    <property name="selected.color.option.type" value="SQL_VARIABLE" />
+    <property name="settings.code.style.selected.tab.PHP" value="Blank Lines" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="KEYMAP" value="split&#10;select&#10;dupl&#10;duplica&#10;generate" />
+    <property name="PLUGIN_FILTER" value="underscore&#10;color&#10;vue&#10;laravel&#10;template" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/dev/projects/artboja/_www/client-scripts&#10;/Users/alex/dev/projects/dgjm&#10;/Users/alex/dev/sandbox/email&#10;/Users/alex/dev/projects/artboja/legal-docs&#10;/Users/alex/Dropbox/_DEVELOPER/phpstorm&#10;/Users/alex/dev/projects/dg-helpers-app&#10;/Users/alex/dev/projects/node-express-rethink-react&#10;/Users/alex/dev/projects/small-format-cut-and-stack&#10;/Users/alex/dev/projects/dg2&#10;/Users/alex/dev/projects/services.artisancolour.com&#10;/Users/alex/Desktop&#10;/Users/alex/dev/projects/artisanhd&#10;/Users/alex/Code/TestAuth&#10;/Users/alex/dev/projects/dg2-APIv1/classes/Dg2&#10;/Users/alex/dev/projects/dg2-APIv1&#10;/Users/alex/Dropbox/_DEVELOPER/phpstorm/settings.jar&#10;/opt/local/bin/php-cgi56&#10;/opt/local/bin/php-cgi70&#10;/Users/alex/dev/_libs&#10;/Users/alex/dev/my_libs/Http_lib&#10;/Users/alex/dev/projects/artboja" />
+    <property name="ShowDocumentationInToolWindow" value="false" />
+    <property name="quick.doc.font.size" value="MEDIUM" />
+    <property name="DocumentationAutoUpdateEnabled" value="true" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="RESTClient.httpMethod" value="GET&#10;POST&#10;PUT&#10;PATCH&#10;DELETE&#10;HEAD&#10;OPTIONS" />
+    <property name="emmet.last.wrap.abbreviations" value="a" />
+    <property name="emmet.recent.wrap.abbreviations" value="a.link&#10;a&#10;span.desktopOnly&#10;li&#10;u&#10;header&#10;.navbar-fixed-bottom&#10;strong&#10;em&#10;h3" />
+    <property name="export.settings.path" value="$USER_HOME$/Dropbox/_DEVELOPER/phpstorm/phpstorm.jar" />
+    <property name="settings.code.style.selected.tab.JavaScript" value="Wrapping and Braces" />
+    <property name="JSHintOptionsTreeView.TREE_SCROLL_BAR_HORIZONTAL" value="20" />
+    <property name="JSHintOptionsTreeView.TREE_SCROLL_BAR_VERTICAL" value="0" />
+    <property name="JSHintOptionsTreeView.TREE_SELECTED_NODE_ID" value="1" />
+    <property name="settings.code.style.selected.tab.Twig" value="Other" />
+    <property name="settings.code.style.selected.tab.HTML" value="Other" />
+    <property name="CommittedChanges.SplitterProportions.0" value="700" />
+    <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="settings.code.style.selected.tab.CSS" value="Tabs and Indents" />
+    <property name="fileTypeChangedCounter" value="42" />
+    <property name="settings.code.style.selected.tab.JSON" value="Tabs and Indents" />
+    <property name="COMPOSER_PACKAGE_FILTER" value="alexsasharegan/da&#10;swiftmailer/&#10;swiftmailer&#10;flys&#10;alexsasharegan/" />
+    <property name="TEMPLATES_FILTER_HISTORY" value="git" />
+    <property name="LayoutCode.optimizeImports" value="true" />
+    <property name="LayoutCode.processChangedText" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="false" />
+    <property name="js.rename.search.in.comments" value="false" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="ColorChooser.RecentColors" value="255-77-84-255,,,0-118-255-255,,,0-173-255-255,,,224-108-117-255,,,44-153-195-255,,,51-176-225-255,,,50-187-235-255,,,86-182-194-255,,,97-175-239-255,,,10-180-0-255,,,152-195-121-255,,,208-154-102-255,,,197-120-220-255,,,171-178-190-255,,,209-154-102-255,,,192-121-237-255,,,166-222-120-255,,,229-192-123-255" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.3226205" />
+    <property name="evlsprt3.163" value="14" />
+    <property name="OpenOrAttachDialog.OpenMode" value="new" />
+    <property name="LAST_INJECTED_LANGUAGE" value="HTML" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6360902" />
+    <property name="javascript.return.tag" value="return" />
+    <property name="SplitFileEditor.Proportion" value="0.56668794" />
+    <property name="SqlStructureView.filterD.file.structure.state" value="true" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
+  </component>
+</application>

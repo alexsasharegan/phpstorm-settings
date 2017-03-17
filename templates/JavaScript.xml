@@ -1,0 +1,272 @@
+<templateSet group="JavaScript">
+  <template name="kv" value="$KEY$: $VAR_VALUE$,$END$" description="object key: value" toReformat="true" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="func" value="function $NAME$($PARAMETERS$) {&#10;    $END$&#10;}" description="function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="afunc" value="function ($PARAMETERS$) {&#10;    $END$&#10;}" description="anonymous function" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="lambda" value="($PARAMETERS$) =&gt; {&#10;    $END$&#10;}" description="arrow function" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="log" value="console.log($PARAMETERS$);$END$" description="console.log" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($CONDITION$) {&#10;&#9;$END$&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="else" value="else {&#10;&#9;$END$&#10;}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="elseif" value="else if ($CONDITION$) {&#10;&#9;$END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="kf" value="$KEY$: function ($PARAMETERS$) {&#10;    $BODY$&#10;},$END$" description="object key: function" toReformat="true" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rcc" value="import React, { Component } from 'react';&#10;&#10;class $COMPONENT$ extends Component {&#10;&#9;&#10;&#9;constructor( props ) {&#10;&#9;&#9;super( props );&#10;&#9;&#9;&#10;&#9;&#9;this.state = {};&#10;&#9;}&#10;&#9;&#10;&#9;render() {&#10;&#9;&#9;return(&#10;&#9;&#9;&#9;&lt;div&gt;&#10;&#9;&#9;&#9;&#9;$END$&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;);&#10;&#9;}&#10;&#9;&#10;}&#10;&#10;export default $COMPONENT$" description="React Class Component" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="MyComponent" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cm" value="$NAME$ ($PARAMETERS$) {&#10;    $END$&#10;}" description="class method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="myMethod" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="args" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="itar" value="for (let $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="clas" value="class $NAME$ {&#10;    $END$&#10;}" description="new class" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="myClass" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="swi" value="switch ( $expression$ ) {&#10;    case $variable1$:&#10;        $end$;&#10;        break;&#10;    default:&#10;        break;&#10;}" description="switch statement" toReformat="true" toShortenFQNames="true">
+    <variable name="expression" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="variable1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="req" value="let $varname$ = require('$packagename$');" description="common js require" toReformat="true" toShortenFQNames="true">
+    <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="packagename" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imp" value="import $varname$ from '$packagename$';$end$" description="es6 import" toReformat="true" toShortenFQNames="true">
+    <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="packagename" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="expmod" value="module.exports = $varname$;" description="module.exports" toReformat="true" toShortenFQNames="true">
+    <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rfc" value="import React from 'react';&#10;&#10;export default props =&gt; {&#10;&#9;return(&#10;&#9;&#9;&lt;div&gt;&#10;&#9;&#9;&#9;$END$&#10;&#9;&#9;&lt;/div&gt;&#10;&#9;);&#10;};" description="React Functional Component" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="prom" value="new Promise( ( resolve, reject ) =&gt; {&#10;&#9;$END$&#10;} );" description="new Promise" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ofbind" value="this.$METHODNAME$ = this.$METHODNAME$.bind(this);$end$" description="object function bind statement" toReformat="true" toShortenFQNames="true">
+    <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cwrp" value="componentWillReceiveProps(nextProps) {&#10;    $END$&#10;}" description="componentWillReceiveProps" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="scup" value="shouldComponentUpdate(nextProps, nextState) {&#10;    $END$&#10;}" description="shouldComponentUpdate" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cwup" value="componentWillUpdate(nextProps, nextState) {&#10;    $END$&#10;}" description="componentWillUpdate" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cdup" value="componentDidUpdate(prevProps, prevState) {&#10;    $END$&#10;}" description="componentDidUpdate" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cwum" value="componentWillUnmount() {&#10;    $END$&#10;}" description="componentWillUnmount" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ss" value="this.setState({$vars$});$end$" description="setState" toReformat="true" toShortenFQNames="true">
+    <variable name="vars" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ssfunc" value="this.setState((prevState, props) =&gt; {&#10;&#9;return {$end$};&#10;});" description="setState callback" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cwmt" value="componentWillMount() {&#10;    $END$&#10;}" description="componentWillMount" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cdmt" value="componentDidMount() {&#10;    $END$&#10;}" description="componentDidMount" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iife" value="(function () {&#10;&#9;'use strict';&#10;&#9;&#10;    $END$&#10;}());" description="immediately invoked function expression" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="om" value="$NAME$($PARAMETERS$) {&#10;    $END$&#10;}," description="object method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="myMethod" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="args" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try {&#10;&#9;$END$&#10;} catch (error) {&#10;&#9;console.error(error.message);&#10;}" description="try catch" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ajax" value="$.ajax( {&#10;&#9;method: 'POST',&#10;&#9;url: '/api',&#10;&#9;contentType: 'application/json',&#10;&#9;data: JSON.stringify( data ),&#10; } )&#10; .then((data, textStatus, jqXHR) =&gt; {&#10;&#9; &#10; })&#10; .fail((jqXHR, textStatus, errorThrown) =&gt; {&#10;&#9; &#10; })&#10; .always((dataOrJqXHR, textStatus, jqXHROrErrorThrown) =&gt; {&#10;    &#10; });" description="jQuery.ajax" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="bbreq" value="const $      = require( 'jquery' );&#10;let Backbone = require( 'backbone' );&#10;Backbone.$   = $;&#10;" description="Backbone.js require (browserify)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="thr" value="throw new Error($END$);" description="throw new Error" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="constructor($PARAMETERS$) {&#10;&#9;super($PARAMETERS$);&#10;    $END$&#10;}" description="class constructor" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="args" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="creq" value="const $varname$ = require('$packagename$');" description="common js require (const)" toReformat="true" toShortenFQNames="true">
+    <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="packagename" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="kfa" value="$KEY$: ($PARAMETERS$) =&gt; {&#10;    $BODY$&#10;},$END$" description="object key: function" toReformat="true" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for (let $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="foro" value="for (let $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of) - ES2015" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fori" value="for (let $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rt" value="return this;" description="return this" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wg" value="window.$var$ = $var$;" description="window global" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="csf" value="static $NAME$ ($PARAMETERS$) {&#10;    $END$&#10;}" description="class static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="myMethod" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="args" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

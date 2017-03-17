@@ -1,0 +1,34 @@
+<templateSet group="JSON">
+  <template name="jkv" value="&quot;$KEY$&quot;: $VAR_VALUE$,$END$" description="JSON key: value" toReformat="true" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="jka" value="&quot;$KEY$&quot;: [$VAR_VALUE$],$END$" description="JSON key: array" toReformat="true" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="jko" value="&quot;$KEY$&quot;: {$VAR_VALUE$},$END$" description="JSON key: object" toReformat="true" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="jks" value="&quot;$KEY$&quot;: &quot;$VAR_VALUE$&quot;,$END$" description="JSON key: string" toReformat="true" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

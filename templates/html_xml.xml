@@ -1,0 +1,15 @@
+<templateSet group="html/xml">
+  <template name="_v" value="&lt;%= $variable$ %&gt;" description="Underscore Template Variable" toReformat="true" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="_if" value="&lt;% if( $condition$ ) { %&gt;$conditionalContent$&lt;% } %&gt;" description="Underscore Template Conditional" toReformat="true" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="conditionalContent" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

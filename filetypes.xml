@@ -9,7 +9,9 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="process-orders-to-dgJobs" type="PLAIN_TEXT" />
       <mapping pattern=".env-example" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="do-beta-deploy" type="PLAIN_TEXT" />
+      <mapping pattern="gulp-js" type="PLAIN_TEXT" />
       <mapping pattern="do-live-deploy" type="PLAIN_TEXT" />
       <mapping pattern="build-dev" type="PLAIN_TEXT" />
       <mapping pattern="webhook-curl" type="PLAIN_TEXT" />
@@ -22,7 +24,6 @@
       <mapping pattern="update" type="PLAIN_TEXT" />
       <mapping pattern="build-pages" type="PLAIN_TEXT" />
       <mapping pattern="dev" type="PLAIN_TEXT" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="serve-from-my-ip" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern="bash-source" type="PLAIN_TEXT" />

@@ -3,20 +3,20 @@
     <variable name="alias" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="CSS" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="TypeScript" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="HTML" value="false" />
-      <option name="SQL" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="HAML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS" value="false" />
+      <option name="OTHER" value="true" />
       <option name="CoffeeScript" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="PHP" value="false" />
-      <option name="XML" value="false" />
       <option name="Twig" value="false" />
       <option name="JADE" value="false" />
-      <option name="JSON" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
 </templateSet>

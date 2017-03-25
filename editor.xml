@@ -7,4 +7,8 @@
     <option name="IS_INNER_WHITESPACES_SHOWN" value="false" />
     <option name="IS_DND_ENABLED" value="false" />
   </component>
+  <component name="SqlEditorOptions">
+    <option name="concatenateStringsOnEnter" value="true" />
+    <option name="qualificationType" value="On collisions" />
+  </component>
 </application>

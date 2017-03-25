@@ -3,9 +3,9 @@
     <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="om" value="$$$OBJECT$-&gt;$METHOD$($VAR$);$END$" description="object method" toReformat="true" toShortenFQNames="true">
@@ -19,9 +19,9 @@
   <template name="clos" value="function ($PARAMETERS$) {&#10;  $END$&#10;}" description="closure" toReformat="true" toShortenFQNames="true">
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="swi" value="switch ( $expression$ ) {&#10;    case $variable1$:&#10;        $end$;&#10;        break;&#10;    default:&#10;        break;&#10;}" description="switch statement" toReformat="true" toShortenFQNames="true">
@@ -29,18 +29,18 @@
     <variable name="variable1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="if" value="if ($expression$) {&#10;    $end$&#10;}" description="if () { }" toReformat="true" toShortenFQNames="true">
     <variable name="expression" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="for" value="for ( $var1$ = 0; $var1$ &lt; $var2$; $var1$++ ) {&#10;    $end$&#10;}" description="loop" toReformat="true" toShortenFQNames="true">
@@ -48,16 +48,16 @@
     <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="rqo" value="require_once __DIR__ . &quot;/$PATH$&quot;;$END$" description="'require_once' statement" toReformat="true" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP Statement" value="true" />
       <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
     </context>
   </template>
   <template name="func" value="function $NAME$($PARAMETERS$) {&#10;    $END$&#10;}" description="new function" toReformat="true" toShortenFQNames="true">
@@ -69,15 +69,15 @@
   </template>
   <template name="else" value="else {&#10;&#9;$END$&#10;}" description="else" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="PHP Statement" value="true" />
       <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
     </context>
   </template>
   <template name="elseif" value="elseif ( $CONDITION$ ) {&#10;&#9;$END$&#10;}" description="elsif" toReformat="true" toShortenFQNames="true">
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP Statement" value="true" />
       <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
     </context>
   </template>
   <template name="tern" value="$EXPRESSION$ ? $TRUE_VAR$ : $FALSE_VAR$;" description="ternary" toReformat="true" toShortenFQNames="true">
@@ -85,8 +85,8 @@
     <variable name="TRUE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="FALSE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP Statement" value="true" />
       <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
     </context>
   </template>
   <template name="rqr" value="require __DIR__ . &quot;/$PATH$&quot;;$END$" description="'require' statement" toReformat="true" toShortenFQNames="true">
@@ -122,36 +122,36 @@
   <template name="try" value="try {&#10;    $end$&#10;} catch (\Exception $e) {&#10;&#10;}" description="try catch" toReformat="true" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="rte" value="function ( Http $http ) {&#10;&#9;$request  = $http-&gt;request;&#10;&#9;$response = $http-&gt;response;&#10;&#9;$END$&#10;&#9;&#10;&#9;$http-&gt;send(Response::HTTP_OK);&#10;}" description="Http Closure" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="rt" value="return $this;" description="return $this" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="restapi" value="use Http\Http;&#10;use Http\Response;&#10;&#10;$http = Http::newInstance();&#10;&#10;$http&#10;&#9;-&gt;get( function ( Http $http )&#10;&#9;{&#10;&#9;&#9;$request  = $http-&gt;request;&#10;&#9;&#9;$response = $http-&gt;response;&#10;&#9;&#9;&#10;&#9;&#9;$response-&gt;set( 'message', &quot;Hello world!&quot; );&#10;&#9;&#9;&#10;&#9;&#9;$http-&gt;send( Response::HTTP_OK );&#10;&#9;} )&#10;&#9;-&gt;exec();" description="Http endpoint" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="jpp" value="JSON_PRETTY_PRINT" description="JSON_PRETTY_PRINT" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="PHP Statement" value="true" />
       <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
     </context>
   </template>
   <template name="whi" value="while ($CONDITION$) {&#10;    $END$&#10;}" description="while loop" toReformat="true" toShortenFQNames="true">

@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="kv" value="$KEY$: $VAR_VALUE$,$END$" description="object key: value" toReformat="true" toShortenFQNames="true">
+  <template name="kv" value="$KEY$: $VAR_VALUE$," description="object key: value" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

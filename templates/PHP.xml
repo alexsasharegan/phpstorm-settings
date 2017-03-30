@@ -141,7 +141,8 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="restapi" value="use Http\Http;&#10;use Http\Response;&#10;&#10;$http = Http::newInstance();&#10;&#10;$http&#10;&#9;-&gt;get( function ( Http $http )&#10;&#9;{&#10;&#9;&#9;$request  = $http-&gt;request;&#10;&#9;&#9;$response = $http-&gt;response;&#10;&#9;&#9;&#10;&#9;&#9;$response-&gt;set( 'message', &quot;Hello world!&quot; );&#10;&#9;&#9;&#10;&#9;&#9;$http-&gt;send( Response::HTTP_OK );&#10;&#9;} )&#10;&#9;-&gt;exec();" description="Http endpoint" toReformat="true" toShortenFQNames="true">
+  <template name="restapi" value="use Http\Http;&#10;use Http\Response;&#10;use Session\Session;&#10;&#10;require_once __DIR__ . &quot;/$PATH$&quot;;&#10;&#10;$session = Session::newSession();&#10;$http    = Http::newInstance();&#10;&#10;$http&#10;&#9;-&gt;get( function ( Http $http )&#10;&#9;{&#10;&#9;&#9;$request  = $http-&gt;request;&#10;&#9;&#9;$response = $http-&gt;response;&#10;&#9;&#9;&#10;&#9;&#9;$response-&gt;set( 'name', __FILE__ );&#10;&#9;&#9;&#10;&#9;&#9;$http-&gt;send( Response::HTTP_OK );&#10;&#9;} )&#10;&#9;-&gt;exec();" description="Http endpoint" toReformat="true" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />

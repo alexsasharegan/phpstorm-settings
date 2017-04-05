@@ -4,6 +4,7 @@
       <blacklist language="PHP">
         <added pattern="\getenv(varname)" />
         <added pattern="\compact(varname,_)" />
+        <added pattern="\json_encode(value,options,depth)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

@@ -9,6 +9,10 @@
         <added pattern="\json_decode(json,assoc,depth,options)" />
         <added pattern="\Slim\PDO\Statement\InsertStatement.into(table)" />
         <added pattern="\PDO.query(statement,mode,arg3,ctorargs)" />
+        <added pattern="\Slim\PDO\Statement\SelectStatement.from(table)" />
+        <added pattern="\Slim\PDO\Statement\StatementContainer.where(column,operator,value,chainType)" />
+        <added pattern="\Slim\PDO\Statement\UpdateStatement.table(table)" />
+        <added pattern="\PDO.prepare(statement,driver_options)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

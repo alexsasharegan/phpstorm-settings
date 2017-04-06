@@ -6,6 +6,8 @@
         <added pattern="\compact(varname,_)" />
         <added pattern="\json_encode(value,options,depth)" />
         <added pattern="\sprintf(format,args,_)" />
+        <added pattern="\json_decode(json,assoc,depth,options)" />
+        <added pattern="\Slim\PDO\Statement\InsertStatement.into(table)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

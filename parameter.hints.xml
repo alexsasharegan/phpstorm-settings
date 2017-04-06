@@ -8,6 +8,7 @@
         <added pattern="\sprintf(format,args,_)" />
         <added pattern="\json_decode(json,assoc,depth,options)" />
         <added pattern="\Slim\PDO\Statement\InsertStatement.into(table)" />
+        <added pattern="\PDO.query(statement,mode,arg3,ctorargs)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

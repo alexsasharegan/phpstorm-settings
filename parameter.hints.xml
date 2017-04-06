@@ -5,6 +5,7 @@
         <added pattern="\getenv(varname)" />
         <added pattern="\compact(varname,_)" />
         <added pattern="\json_encode(value,options,depth)" />
+        <added pattern="\sprintf(format,args,_)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

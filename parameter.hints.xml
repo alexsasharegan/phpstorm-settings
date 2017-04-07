@@ -13,6 +13,7 @@
         <added pattern="\Slim\PDO\Statement\StatementContainer.where(column,operator,value,chainType)" />
         <added pattern="\Slim\PDO\Statement\UpdateStatement.table(table)" />
         <added pattern="\PDO.prepare(statement,driver_options)" />
+        <added pattern="\explode(delimiter,string,limit)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

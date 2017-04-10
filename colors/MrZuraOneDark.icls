@@ -608,6 +608,12 @@
         <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
+    <option name="JS.MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="BACKGROUND" value="292d35" />
+      </value>
+    </option>
     <option name="JS.NUMBER">
       <value>
         <option name="FOREGROUND" value="ffb639" />

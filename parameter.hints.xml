@@ -15,6 +15,7 @@
         <added pattern="\PDO.prepare(statement,driver_options)" />
         <added pattern="\explode(delimiter,string,limit)" />
         <added pattern="\preg_match(pattern,subject,matches,flags,offset)" />
+        <added pattern="\Http\Http.send(statusCode,contentType,content)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

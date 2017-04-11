@@ -14,6 +14,7 @@
         <added pattern="\Slim\PDO\Statement\UpdateStatement.table(table)" />
         <added pattern="\PDO.prepare(statement,driver_options)" />
         <added pattern="\explode(delimiter,string,limit)" />
+        <added pattern="\preg_match(pattern,subject,matches,flags,offset)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

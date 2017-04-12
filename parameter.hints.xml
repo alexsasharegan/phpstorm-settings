@@ -16,6 +16,8 @@
         <added pattern="\explode(delimiter,string,limit)" />
         <added pattern="\preg_match(pattern,subject,matches,flags,offset)" />
         <added pattern="\Http\Http.send(statusCode,contentType,content)" />
+        <added pattern="\file_get_contents(filename,use_include_path,context,offset,maxlen)" />
+        <added pattern="\date_default_timezone_set(timezone_identifier)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

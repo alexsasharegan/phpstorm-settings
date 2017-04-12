@@ -18,6 +18,7 @@
         <added pattern="\Http\Http.send(statusCode,contentType,content)" />
         <added pattern="\file_get_contents(filename,use_include_path,context,offset,maxlen)" />
         <added pattern="\date_default_timezone_set(timezone_identifier)" />
+        <added pattern="\strpos(haystack,needle,offset)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

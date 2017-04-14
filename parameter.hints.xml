@@ -19,6 +19,12 @@
         <added pattern="\file_get_contents(filename,use_include_path,context,offset,maxlen)" />
         <added pattern="\date_default_timezone_set(timezone_identifier)" />
         <added pattern="\strpos(haystack,needle,offset)" />
+        <added pattern="\DateTime.format(format)" />
+        <added pattern="\Silex\Application.abort(statusCode,message,headers)" />
+        <added pattern="\Illuminate\Database\Query\Builder.take(value)" />
+        <added pattern="\Illuminate\Database\Capsule\Manager.connection(connection)" />
+        <added pattern="\Illuminate\Database\Connection.table(table)" />
+        <added pattern="\Illuminate\Database\Query\Builder.where(column,operator,value,boolean)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

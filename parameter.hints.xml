@@ -26,6 +26,7 @@
         <added pattern="\Illuminate\Database\Connection.table(table)" />
         <added pattern="\Illuminate\Database\Query\Builder.where(column,operator,value,boolean)" />
         <added pattern="\middleware(classDotMethod)" />
+        <added pattern="\Http\Request.query(key)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

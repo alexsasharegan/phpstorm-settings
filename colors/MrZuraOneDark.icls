@@ -548,6 +548,11 @@
         <option name="FOREGROUND" value="e5c07b" />
       </value>
     </option>
+    <option name="JS.COMMA">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
+      </value>
+    </option>
     <option name="JS.DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="5c6370" />
@@ -563,6 +568,16 @@
       <value>
         <option name="FOREGROUND" value="c678dd" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.DOT">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
+      </value>
+    </option>
+    <option name="JS.FUNCTION_ARROW">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION">
@@ -595,6 +610,12 @@
       <value>
         <option name="FOREGROUND" value="c678dd" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.LABEL">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="BACKGROUND" value="292d35" />
       </value>
     </option>
     <option name="JS.LINE_COMMENT">
@@ -638,6 +659,11 @@
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="56b6c2" />
+      </value>
+    </option>
+    <option name="JS.SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
       </value>
     </option>
     <option name="JS.STATIC_MEMBER_FUNCTION">

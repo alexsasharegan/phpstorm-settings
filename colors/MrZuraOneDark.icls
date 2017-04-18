@@ -1030,6 +1030,177 @@
         <option name="ERROR_STRIPE_COLOR" value="ff" />
       </value>
     </option>
+    <option name="TS.BADCHARACTER">
+      <value>
+        <option name="BACKGROUND" value="660000" />
+      </value>
+    </option>
+    <option name="TS.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="818e96" />
+      </value>
+    </option>
+    <option name="TS.BRACES">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
+      </value>
+    </option>
+    <option name="TS.BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
+      </value>
+    </option>
+    <option name="TS.CLASS">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+        <option name="BACKGROUND" value="292d35" />
+      </value>
+    </option>
+    <option name="TS.COMMA">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
+      </value>
+    </option>
+    <option name="TS.DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="5c6370" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="TS.DOC_MARKUP">
+      <value>
+        <option name="BACKGROUND" value="333333" />
+      </value>
+    </option>
+    <option name="TS.DOC_TAG">
+      <value>
+        <option name="FOREGROUND" value="c678dd" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="TS.DOT">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
+      </value>
+    </option>
+    <option name="TS.FUNCTION_ARROW">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
+      </value>
+    </option>
+    <option name="TS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="TS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="56b6c2" />
+      </value>
+    </option>
+    <option name="TS.INSTANCE_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="TS.INSTANCE_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+      </value>
+    </option>
+    <option name="TS.INTERFACE">
+      <value>
+        <option name="FOREGROUND" value="e5c07b" />
+        <option name="BACKGROUND" value="292d35" />
+      </value>
+    </option>
+    <option name="TS.INVALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="c0c0c0" />
+        <option name="BACKGROUND" value="660000" />
+      </value>
+    </option>
+    <option name="TS.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="c678dd" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="TS.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="5c6370" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="TS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+      </value>
+    </option>
+    <option name="TS.MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="BACKGROUND" value="292d35" />
+      </value>
+    </option>
+    <option name="TS.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ffb639" />
+      </value>
+    </option>
+    <option name="TS.OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
+      </value>
+    </option>
+    <option name="TS.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="TS.PARENTHS">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
+      </value>
+    </option>
+    <option name="TS.REGEXP">
+      <value>
+        <option name="FOREGROUND" value="56b6c2" />
+      </value>
+    </option>
+    <option name="TS.SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
+      </value>
+    </option>
+    <option name="TS.STATIC_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+        <option name="BACKGROUND" value="292d35" />
+      </value>
+    </option>
+    <option name="TS.STATIC_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="TS.STRING">
+      <value>
+        <option name="FOREGROUND" value="98c379" />
+      </value>
+    </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="56b6c2" />
+      </value>
+    </option>
+    <option name="TS.VALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="86c26e" />
+      </value>
+    </option>
     <option name="TWIG_KEYWORD">
       <value>
         <option name="FOREGROUND" value="67a8f5" />

@@ -422,6 +422,46 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="ELM_DEFINITION_NAME">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ELM_DOT">
+      <value>
+        <option name="FOREGROUND" value="abb2be" />
+      </value>
+    </option>
+    <option name="ELM_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="c578dc" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ELM_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="d09a66" />
+      </value>
+    </option>
+    <option name="ELM_STRING">
+      <value>
+        <option name="FOREGROUND" value="98c379" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ELM_TYPE">
+      <value>
+        <option name="FOREGROUND" value="d19a66" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ELM_TYPE_ANNOTATION_NAME">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="dd2020" />

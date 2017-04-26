@@ -127,7 +127,7 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
-  <template name="rte" value="function ( Http $http ) {&#10;&#9;$request  = $http-&gt;request;&#10;&#9;$response = $http-&gt;response;&#10;&#9;$END$&#10;&#9;&#10;&#9;$http-&gt;send(Response::HTTP_OK);&#10;}" description="Http Closure" toReformat="true" toShortenFQNames="true">
+  <template name="route" value="function ( Http $http ) {&#10;&#9;$request  = $http-&gt;request;&#10;&#9;$response = $http-&gt;response;&#10;&#9;$END$&#10;&#9;&#10;&#9;$http-&gt;send(Response::HTTP_OK);&#10;}" description="Http Closure" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />

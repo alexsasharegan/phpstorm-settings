@@ -29,6 +29,7 @@
         <added pattern="\Http\Request.query(key)" />
         <added pattern="\Http\Http.abort(statusCode,message)" />
         <added pattern="\Http\Request.getParam(key)" />
+        <added pattern="\ArtisanHD\TemplateManager.renderTemplate(template,data)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

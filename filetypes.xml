@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".gitkeep" type="Git file" />
-      <mapping ext="lock" type="JSON" />
       <mapping pattern="UploadedFilesTable" type="JSX Harmony" />
       <mapping pattern="php" type="PHP" />
       <mapping pattern="serve-from-my-ip" type="PLAIN_TEXT" />
@@ -39,6 +38,7 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="stdout" type="PLAIN_TEXT" />
       <mapping ext="icc" type="PLAIN_TEXT" />
+      <mapping pattern="yarn.lock" type="YAML" />
       <mapping ext="rml" type="YAML" />
       <mapping ext="raml" type="YAML" />
     </extensionMap>

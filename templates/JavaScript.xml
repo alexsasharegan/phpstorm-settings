@@ -274,4 +274,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="expdef" value="export default $varname$;" description="es6 default export" toReformat="true" toShortenFQNames="true">
+    <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -30,6 +30,11 @@
         <added pattern="\Http\Http.abort(statusCode,message)" />
         <added pattern="\Http\Request.getParam(key)" />
         <added pattern="\ArtisanHD\TemplateManager.renderTemplate(template,data)" />
+        <added pattern="\Carbon\Carbon.addWeek(value)" />
+        <added pattern="\pathinfo(path,options)" />
+        <added pattern="\Artboja.slackAPIRequest(text,channel,attachments,username,icon_emoji)" />
+        <added pattern="\implode(glue,pieces)" />
+        <added pattern="\Database\MySQL.select(table,columns,where)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

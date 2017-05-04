@@ -35,6 +35,7 @@
         <added pattern="\Artboja.slackAPIRequest(text,channel,attachments,username,icon_emoji)" />
         <added pattern="\implode(glue,pieces)" />
         <added pattern="\Database\MySQL.select(table,columns,where)" />
+        <added pattern="\Http\Request.getQueryParam(key)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

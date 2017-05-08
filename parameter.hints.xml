@@ -41,6 +41,7 @@
         <added pattern="\PHPMailer.addAddress(address,name)" />
         <added pattern="\PHPMailer.addAttachment(path,name,encoding,type,disposition)" />
         <added pattern="\Artboja.getLocalFileSystem(path)" />
+        <added pattern="\Carbon\Carbon.parse(time,tz)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

@@ -38,6 +38,9 @@
         <added pattern="\Http\Request.getQueryParam(key)" />
         <added pattern="\header(string,replace,http_response_code)" />
         <added pattern="\substr(string,start,length)" />
+        <added pattern="\PHPMailer.addAddress(address,name)" />
+        <added pattern="\PHPMailer.addAttachment(path,name,encoding,type,disposition)" />
+        <added pattern="\Artboja.getLocalFileSystem(path)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

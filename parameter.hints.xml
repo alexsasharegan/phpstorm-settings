@@ -36,6 +36,7 @@
         <added pattern="\implode(glue,pieces)" />
         <added pattern="\Database\MySQL.select(table,columns,where)" />
         <added pattern="\Http\Request.getQueryParam(key)" />
+        <added pattern="\header(string,replace,http_response_code)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

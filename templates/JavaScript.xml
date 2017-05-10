@@ -25,7 +25,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="log" value="console.log($PARAMETERS$);$END$" description="console.log" toReformat="true" toShortenFQNames="true">
+  <template name="log" value="console.log($PARAMETERS$)$END$" description="console.log" toReformat="true" toShortenFQNames="true">
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -81,7 +81,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="swi" value="switch ( $expression$ ) {&#10;    case $variable1$:&#10;        $end$;&#10;        break;&#10;    default:&#10;        break;&#10;}" description="switch statement" toReformat="true" toShortenFQNames="true">
+  <template name="swi" value="switch ( $expression$ ) {&#10;    case $variable1$:&#10;        $end$&#10;        break&#10;    default:&#10;        break&#10;}" description="switch statement" toReformat="true" toShortenFQNames="true">
     <variable name="expression" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="variable1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
@@ -97,7 +97,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imp" value="import $varname$ from '$packagename$';" description="es6 import" toReformat="true" toShortenFQNames="true">
+  <template name="imp" value="import $varname$ from '$packagename$'" description="es6 import" toReformat="true" toShortenFQNames="true">
     <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="packagename" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -116,7 +116,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="prom" value="new Promise( ( resolve, reject ) =&gt; {&#10;&#9;$END$&#10;} );" description="new Promise" toReformat="true" toShortenFQNames="true">
+  <template name="prom" value="new Promise( ( resolve, reject ) =&gt; {&#10;&#9;$END$&#10;} )" description="new Promise" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -188,27 +188,22 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="try" value="try {&#10;&#9;$END$&#10;} catch (error) {&#10;&#9;console.error(error.message);&#10;}" description="try catch" toReformat="true" toShortenFQNames="true">
+  <template name="try" value="try {&#10;&#9;$END$&#10;} catch (error) {&#10;&#9;console.error(error.message)&#10;}" description="try catch" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ajax" value="$.ajax( {&#10;&#9;method: 'POST',&#10;&#9;url: '/api',&#10;&#9;contentType: 'application/json',&#10;&#9;data: JSON.stringify( data ),&#10; } )&#10; .then((data, textStatus, jqXHR) =&gt; {&#10;&#9; &#10; })&#10; .fail((jqXHR, textStatus, errorThrown) =&gt; {&#10;&#9; &#10; })&#10; .always((dataOrJqXHR, textStatus, jqXHROrErrorThrown) =&gt; {&#10;    &#10; });" description="jQuery.ajax" toReformat="true" toShortenFQNames="true">
+  <template name="$ajax" value="$.ajax( {&#10;&#9;method: 'POST',&#10;&#9;url: '/api',&#10;&#9;contentType: 'application/json',&#10;&#9;data: JSON.stringify( data ),&#10; } )&#10; .then((data, textStatus, jqXHR) =&gt; {&#10;&#9; &#10; })&#10; .fail((jqXHR, textStatus, errorThrown) =&gt; {&#10;&#9; &#10; })&#10; .always((dataOrJqXHR, textStatus, jqXHROrErrorThrown) =&gt; {&#10;    &#10; });" description="jQuery.ajax" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="bbreq" value="const $      = require( 'jquery' );&#10;let Backbone = require( 'backbone' );&#10;Backbone.$   = $;&#10;" description="Backbone.js require (browserify)" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="thr" value="throw new Error($END$);" description="throw new Error" toReformat="true" toShortenFQNames="true">
+  <template name="thr" value="throw new Error($END$)" description="throw new Error" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cc" value="constructor() {&#10;&#9;super(...arguments);&#10;    $END$&#10;}" description="class constructor" toReformat="true" toShortenFQNames="true">
+  <template name="cc" value="constructor() {&#10;&#9;super(...arguments)&#10;    $END$&#10;}" description="class constructor" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -249,12 +244,12 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rt" value="return this;" description="return this" toReformat="true" toShortenFQNames="true">
+  <template name="rt" value="return this" description="return this" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="wg" value="window.$var$ = $var$;" description="window global" toReformat="true" toShortenFQNames="true">
+  <template name="wg" value="window.$var$ = $var$" description="window global" toReformat="true" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -273,7 +268,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="expdef" value="export default $varname$;" description="es6 default export" toReformat="true" toShortenFQNames="true">
+  <template name="expdef" value="export default $varname$" description="es6 default export" toReformat="true" toShortenFQNames="true">
     <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -287,6 +282,12 @@
   </template>
   <template name="afn" value="($PARAMETER$) =&gt; $END$" description="arrow function" toReformat="false" toShortenFQNames="true">
     <variable name="PARAMETER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="expconst" value="export const $varname$ = $END$" description="es6 default export" toReformat="true" toShortenFQNames="true">
+    <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

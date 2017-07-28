@@ -161,4 +161,10 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="cc" value="public function __construct($PARAMETERS$){&#10;    $END$&#10;}" description="Class constructor" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -1,6 +1,9 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="XML" />
+      <blacklist language="Go" />
       <blacklist language="PHP">
         <added pattern="\getenv(varname)" />
         <added pattern="\compact(varname,_)" />
@@ -43,11 +46,9 @@
         <added pattern="\Artboja.getLocalFileSystem(path)" />
         <added pattern="\Carbon\Carbon.parse(time,tz)" />
         <added pattern="\Framework\Collection.reduce(f,carry)" />
-        <added pattern="\ReflectionClass.getShortName()" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />
-      <blacklist language="XML" />
     </blacklists>
   </component>
 </application>

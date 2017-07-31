@@ -557,6 +557,13 @@
         <option name="BACKGROUND" value="292929" />
       </value>
     </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="7a7a7a" />
+        <option name="BACKGROUND" value="2f383c" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="JS.ATTRIBUTE">
       <value>
         <option name="BACKGROUND" value="660066" />

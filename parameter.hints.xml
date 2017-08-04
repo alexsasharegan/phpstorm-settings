@@ -45,6 +45,8 @@
         <added pattern="\Artboja.getLocalFileSystem(path)" />
         <added pattern="\Carbon\Carbon.parse(time,tz)" />
         <added pattern="\Framework\Collection.reduce(f,carry)" />
+        <added pattern="\ArtisanHD\HD2Models\File.joinPaths(paths)" />
+        <added pattern="\ltrim(str,charlist)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

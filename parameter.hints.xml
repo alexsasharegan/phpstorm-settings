@@ -47,6 +47,7 @@
         <added pattern="\Framework\Collection.reduce(f,carry)" />
         <added pattern="\ArtisanHD\HD2Models\File.joinPaths(paths)" />
         <added pattern="\ltrim(str,charlist)" />
+        <added pattern="\ArtisanHD\DG2Models\(key,defaultVal)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

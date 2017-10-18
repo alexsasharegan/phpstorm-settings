@@ -49,6 +49,7 @@
         <added pattern="\ltrim(str,charlist)" />
         <added pattern="\ArtisanHD\DG2Models\(key,defaultVal)" />
         <added pattern="\League\Flysystem\MountManager.copy(from,to,config)" />
+        <added pattern="\getenv(varname,local_only)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

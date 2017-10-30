@@ -50,6 +50,9 @@
         <added pattern="\ArtisanHD\DG2Models\(key,defaultVal)" />
         <added pattern="\League\Flysystem\MountManager.copy(from,to,config)" />
         <added pattern="\getenv(varname,local_only)" />
+        <added pattern="\min(value1,value2,values)" />
+        <added pattern="\max(value1,value2,values)" />
+        <added pattern="\round(val,precision,mode)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

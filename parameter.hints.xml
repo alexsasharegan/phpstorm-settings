@@ -54,6 +54,7 @@
         <added pattern="\max(value1,value2,values)" />
         <added pattern="\round(val,precision,mode)" />
         <added pattern="\floor(value)" />
+        <added pattern="\ArtisanHD\Primitives\Dimensions.from(width,height)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

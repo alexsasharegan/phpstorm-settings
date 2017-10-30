@@ -53,6 +53,7 @@
         <added pattern="\min(value1,value2,values)" />
         <added pattern="\max(value1,value2,values)" />
         <added pattern="\round(val,precision,mode)" />
+        <added pattern="\floor(value)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

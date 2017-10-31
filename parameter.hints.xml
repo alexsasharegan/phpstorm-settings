@@ -55,6 +55,7 @@
         <added pattern="\round(val,precision,mode)" />
         <added pattern="\floor(value)" />
         <added pattern="\ArtisanHD\Primitives\Dimensions.from(width,height)" />
+        <added pattern="\ArtisanHD\HD2Models\File.joinCleanPaths(paths)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

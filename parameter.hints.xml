@@ -56,6 +56,9 @@
         <added pattern="\floor(value)" />
         <added pattern="\ArtisanHD\Primitives\Dimensions.from(width,height)" />
         <added pattern="\ArtisanHD\HD2Models\File.joinCleanPaths(paths)" />
+        <added pattern="\ini_set(varname,newvalue)" />
+        <added pattern="\error_reporting(level)" />
+        <added pattern="\phpseclib\Net\SFTP.chmod(mode,filename,recursive)" />
         <removed pattern="" />
       </blacklist>
       <blacklist language="YAML" />

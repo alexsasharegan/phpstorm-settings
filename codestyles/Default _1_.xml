@@ -1,14 +1,8 @@
-<code_scheme name="Default (1)">
+<code_scheme name="Default (1)" version="173">
   <option name="OTHER_INDENT_OPTIONS">
     <value>
-      <option name="INDENT_SIZE" value="4" />
-      <option name="CONTINUATION_INDENT_SIZE" value="8" />
-      <option name="TAB_SIZE" value="4" />
       <option name="USE_TAB_CHARACTER" value="true" />
       <option name="SMART_TABS" value="true" />
-      <option name="LABEL_INDENT_SIZE" value="0" />
-      <option name="LABEL_INDENT_ABSOLUTE" value="false" />
-      <option name="USE_RELATIVE_INDENTS" value="false" />
     </value>
   </option>
   <option name="LINE_SEPARATOR" value="&#10;" />
@@ -21,6 +15,12 @@
     <option name="HEX_COLOR_LONG_FORMAT" value="true" />
     <option name="KEEP_SINGLE_LINE_BLOCKS" value="true" />
   </CssCodeStyleSettings>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_ATTRIBUTE_WRAP" value="4" />
+    <option name="HTML_KEEP_BLANK_LINES" value="1" />
+    <option name="HTML_ALIGN_TEXT" value="true" />
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,body,thead,tbody,tfoot,script,style" />
+  </HTMLCodeStyleSettings>
   <JSCodeStyleSettings>
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
@@ -36,7 +36,7 @@
     <option name="PHPDOC_WRAP_LONG_LINES" value="true" />
     <option name="UPPER_CASE_BOOLEAN_CONST" value="true" />
     <option name="UPPER_CASE_NULL_CONST" value="true" />
-    <option name="BLANK_LINE_BEFORE_RETURN_STATEMENT" value="true" />
+    <option name="BLANK_LINES_BEFORE_RETURN_STATEMENT" value="1" />
     <option name="SPACES_AROUND_VAR_WITHIN_BRACKETS" value="true" />
     <option name="SPACE_BEFORE_CLOSURE_LEFT_PARENTHESIS" value="false" />
     <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
@@ -77,6 +77,7 @@
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
+      <option name="USE_TAB_CHARACTER" value="true" />
       <option name="SMART_TABS" value="true" />
       <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
     </indentOptions>

@@ -1,19 +1,18 @@
 <scheme name="MrZuraOneDark" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
-  <option name="LINE_SPACING" value="1.3" />
-  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="LINE_SPACING" value="1.1" />
+  <option name="EDITOR_FONT_SIZE" value="15" />
   <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <option name="EDITOR_LIGATURES" value="true" />
   <console-font>
-    <option name="EDITOR_FONT_NAME" value="PowerlineSymbols" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
+    <option name="EDITOR_FONT_NAME" value="Ubuntu Mono" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </console-font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Consolas" />
     <option name="EDITOR_FONT_SIZE" value="12" />
   </console-font>
   <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.5" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="9933" />
     <option name="CARET_COLOR" value="c1cbd2" />

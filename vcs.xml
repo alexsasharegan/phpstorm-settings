@@ -14,4 +14,7 @@
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/dev/_libs" />
   </component>
+  <component name="VcsApplicationSettings">
+    <option name="SHOW_LST_WORD_DIFFERENCES" value="false" />
+  </component>
 </application>

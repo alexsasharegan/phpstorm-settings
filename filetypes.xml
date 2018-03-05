@@ -3,9 +3,8 @@
     <extensionMap>
       <mapping pattern="UploadedFilesTable" type="JSX Harmony" />
       <mapping pattern="php" type="PHP" />
-      <mapping pattern="gulp-watch" type="PLAIN_TEXT" />
-      <mapping pattern="update" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="update-artisan-composer" type="PLAIN_TEXT" />
       <mapping pattern="build-pages" type="PLAIN_TEXT" />
       <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
@@ -14,16 +13,16 @@
       <mapping pattern="webhook-curl" type="PLAIN_TEXT" />
       <mapping pattern=".env-test.example" type="PLAIN_TEXT" />
       <mapping pattern="serve-from-my-ip" type="PLAIN_TEXT" />
+      <mapping pattern="update" type="PLAIN_TEXT" />
       <mapping pattern="deploy-production" type="PLAIN_TEXT" />
       <mapping pattern="gulp-js" type="PLAIN_TEXT" />
       <mapping pattern="bundle" type="PLAIN_TEXT" />
-      <mapping pattern="assets" type="PLAIN_TEXT" />
       <mapping pattern=".env.beta" type="PLAIN_TEXT" />
       <mapping pattern="process-accepted-orders" type="PLAIN_TEXT" />
-      <mapping pattern="bash-source" type="PLAIN_TEXT" />
+      <mapping pattern="assets" type="PLAIN_TEXT" />
       <mapping pattern=".build-hash" type="PLAIN_TEXT" />
       <mapping pattern="process-orders-to-dgJobs" type="PLAIN_TEXT" />
-      <mapping pattern="update-artisan-composer" type="PLAIN_TEXT" />
+      <mapping pattern="gulp-watch" type="PLAIN_TEXT" />
       <mapping pattern=".env-example" type="PLAIN_TEXT" />
       <mapping pattern="do-beta-deploy" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
@@ -31,10 +30,12 @@
       <mapping pattern="process-weekly-artist-sales-reports" type="PLAIN_TEXT" />
       <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping pattern="build-dev" type="PLAIN_TEXT" />
+      <mapping pattern="bash-source" type="PLAIN_TEXT" />
       <mapping pattern="do-live-deploy" type="PLAIN_TEXT" />
       <mapping ext="stderr" type="PLAIN_TEXT" />
       <mapping ext="stdout" type="PLAIN_TEXT" />
       <mapping ext="icc" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
       <mapping ext="mjml" type="Twig" />
       <mapping pattern="yarn.lock" type="YAML" />
       <mapping ext="rml" type="YAML" />

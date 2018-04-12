@@ -1,5 +1,5 @@
 <templateSet group="PHP">
-  <template name="kv" value="&quot;$KEY$&quot; =&gt; $VAR_VALUE$,$END$" description="key =&gt; value" toReformat="true" toShortenFQNames="true">
+  <template name="kv" value="'$KEY$' =&gt; $VAR_VALUE$,$END$" description="key =&gt; value" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
